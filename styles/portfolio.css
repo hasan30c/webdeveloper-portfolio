@@ -1,0 +1,58 @@
+/* common shared styles */
+body {
+  // <uniquifier>: Use a unique and descriptive class name
+
+  .open-sans-<uniquifier> {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+}
+
+.text-primary {
+  color: rgb(253, 110, 10);
+}
+
+.btn-primary {
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  border: 0px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
+}
+
+/* Nav Realted Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.nav title {
+  color: #181818;
+  font-family: Open Sans;
+  font-size: 45px;
+  
+  font-weight: 800;
+  
+}
+
+nav>ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}
